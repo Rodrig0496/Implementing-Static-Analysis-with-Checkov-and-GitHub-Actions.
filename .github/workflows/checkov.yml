@@ -16,7 +16,7 @@ jobs:
       - name: Run Checkov action
         uses: bridgecrewio/checkov-action@master
         with:
-          directory: infrastructure/
+          directory: infraestructure/
           framework: terraform
           soft_fail: false # El pipeline fallará si encuentra errores graves
           output_format: cli
